@@ -425,6 +425,14 @@ EXPORT void CALL SetVce(u8 value) {
     set_VCE(value);
 }
 
+EXPORT void CALL DmaRead() {
+    SP_DMA_READ();
+}
+
+EXPORT void CALL DmaWrite() {
+    SP_DMA_WRITE();
+}
+
 NOINLINE void message(const char* body)
 {
 #ifdef WIN32

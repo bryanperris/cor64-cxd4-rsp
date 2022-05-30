@@ -266,6 +266,10 @@ EXPORT void CALL SetVcc(u16 value);
 
 EXPORT void CALL SetVce(u8 value);
 
+EXPORT void CALL DmaRead();
+
+EXPORT void CALL DmaWrite();
+
 /*
  * required?? in version #1.2 of the RSP plugin spec
  * Have not tested a #1.2 implementation yet so shouldn't document them yet.

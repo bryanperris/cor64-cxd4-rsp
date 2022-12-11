@@ -1,7 +1,7 @@
 #ifndef _ENDIAN_H_
 #define _ENDIAN_H_
 
-#define EMUHOST_BIG_ENDIAN
+// #define EMUHOST_BIG_ENDIAN
 
 /* Little-endian native platform, but big-endian simulated emulator */
 #if !defined(__BIG_ENDIAN__) && defined(EMUHOST_BIG_ENDIAN)
